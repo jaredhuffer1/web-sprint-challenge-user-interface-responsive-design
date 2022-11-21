@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -49,6 +50,7 @@ table {
 
 * {
     box-sizing: border-box;
+   
 }
 
 html {
@@ -60,14 +62,19 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+   
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
+    
+  
 }
 
 h1 {
     font-size: 7.5rem;
+   
+    
 }
 
 h2 {
@@ -94,6 +101,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 /* spacer */
@@ -131,6 +139,11 @@ footer {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .header-title {
         width: 75%;
         margin: 0 auto;
